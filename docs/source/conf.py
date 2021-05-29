@@ -40,11 +40,13 @@ release = u'1.0.0'
 # If your documentation needs a minimal Sphinx version, state it here.
 #
 # needs_sphinx = '1.0'
+html_baseurl = 'https://xycool.github.io/sphinx_test/'
 
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
+        'sphinx.ext.githubpages',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
